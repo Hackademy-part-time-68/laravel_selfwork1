@@ -7,9 +7,9 @@
 </head>
 <body>
     
-    <h1>Benvenuto</h1>
+    <h1>{{ $blogName }}</h1>
 
-    <nav style="margin-bottom: 20px;">
+    <nav style="position:fixed;bottom:20px;left:0;width:100%;text-align:center;">
         <a href="/" style="margin-right: 10px;">Home</a>
         <a href="/articoli" style="margin-right: 10px;">Articoli</a>
         <a href="/chi-siamo" style="margin-right: 10px;">Chi Siamo</a>
